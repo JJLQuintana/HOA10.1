@@ -30,13 +30,13 @@
 - name: Configure Elasticsearch cluster name (Ubuntu)
   lineinfile:
     dest: /etc/elasticsearch/elasticsearch.yml
-    line: "cluster.name: demo-elk"
+    line: "cluster.name: midterm exam"
     state: present
 
 - name: Configure Elasticsearch descriptive name (Ubuntu)
   lineinfile:
     dest: /etc/elasticsearch/elasticsearch.yml
-    line: "node.name: elk-1"
+    line: "node.name: elastic search"
     state: present
 
 - name: Configure Elasticsearch Adding network.host (Ubuntu)
